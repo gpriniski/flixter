@@ -19,7 +19,7 @@ class Instructor::LessonsController < ApplicationController
     end  
   end  
 
-  helper_method :current_user
+  helper_method :current_section
   def current_section
     @current_section ||= Section.find(params[:section_id])
   end
