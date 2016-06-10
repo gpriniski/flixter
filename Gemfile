@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'figaro'
+gem 'fog'
+
 gem 'carrierwave'
 
 gem 'simple_form'
