@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'mini_magick', '~> 4.3.1'
-
 gem 'figaro'
 gem "fog"
 
 gem 'carrierwave'
+gem 'mini_magick'
+gem 'carrierwave-aws'
 
 gem 'simple_form'
 
