@@ -20,7 +20,7 @@ class EnrollmentsController < ApplicationController
     end
 
     current_user.enrollments.create(course: current_course)
-    redirect_to course_path(current_course)
+    redirect_to course_path(current_course)    
   rescue Stripe::CardError => e
     flash[:error] = e.message
     redirect_to root_path

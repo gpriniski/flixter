@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'stripe'
+gem 'ranked-model'
 
+gem 'stripe'
 
 gem 'figaro'
 gem "fog"
